@@ -1,4 +1,4 @@
-![](https://i.imgur.com/hWB1XRO.png)
+This is a fork used on my personal page [lupu.pro](https://lupu.pro). I still need to thank the creators of Cara and keep their links bellow.
 
 # Gatsby Starter Portfolio: Cara
 

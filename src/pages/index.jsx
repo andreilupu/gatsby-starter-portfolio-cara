@@ -158,9 +158,14 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm John Doe.
+            Hello, <br /> I'm Andrei Lupu.
           </BigTitle>
-          <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+          <Subtitle>I could be described as a web enthusiast, WordPress fanboy, and a challenge seeker.</Subtitle>
+          <ContactText>
+              <a href="https://a.lupu.pro" title="Find more about me on my blog.">Find more about me on my blog.</a>
+              <em>I know, I should do more with this page!</em>
+          </ContactText>
+
         </Hero>
       </Content>
       <DividerMiddle
@@ -169,6 +174,7 @@ const Index = () => (
         offset={1.1}
         factor={2}
       />
+        {/**
       <Content speed={0.4} offset={1.2} factor={2}>
         <Inner>
           <Title>Projects</Title>
@@ -204,6 +210,7 @@ const Index = () => (
           </ProjectsWrapper>
         </Inner>
       </Content>
+
       <Divider speed={0.1} offset={1} factor={2}>
         <UpDown>
           <SVG icon="box" width={6} fill={colors.white} left="85%" top="75%" />
@@ -295,6 +302,7 @@ const Index = () => (
           <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
         </Footer>
       </Content>
+         **/}
       <Divider speed={0.1} offset={4}>
         <UpDown>
           <SVG icon="upDown" className={hidden} width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
